@@ -1,15 +1,12 @@
 package com.javaex.practice;
 import java.util.Scanner;
 public class Ex10 {
-
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int a;
 		System.out.println("사번(정수)를 입력해주세요");
 		System.out.print("사번: ");
-		a=sc.nextInt();
-		
-		
+		a=sc.nextInt();		
 		if(a%3==0) {
 		System.out.println("A팀입니다.");
 		}
@@ -21,10 +18,7 @@ public class Ex10 {
 		}	    
 		else {
 			System.out.println("잘못 입력하셨습니다.-");
-		}	
-		
-		sc.close();
-	    
+		}			
+		sc.close();	    
 	}
-
 }
